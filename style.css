@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    background-image: url(img/fondo.png);
+    background-size: cover; 
+    border-radius: 40px;
+    padding: 20px;
+    width: 350px;
+}
+.header {
+    text-align: center;
+    padding-top: 80px;
+}
+.profile {
+    margin-bottom: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+}
+h1 {
+    color: #e6ffff;
+    font-size: 22px;
+    margin-top: 10px;
+}
+p {
+    color: #d3f8ff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.button {
+    margin-bottom: 20px;
+}
+button {
+    background-color: #fff;
+    border: none;
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #6398a0;
+    clip-path: polygon(
+        0% 10%, 5% 15%, 10% 10%, 15% 15%, 20% 10%, 25% 15%, 30% 10%, 35% 15%, 
+        40% 10%, 45% 15%, 50% 10%, 55% 15%, 60% 10%, 65% 15%, 70% 10%, 75% 15%, 
+        80% 10%, 85% 15%, 90% 10%, 95% 15%, 100% 10%, 100% 90%, 95% 85%, 90% 90%, 
+        85% 85%, 80% 90%, 75% 85%, 70% 90%, 65% 85%, 60% 90%, 55% 85%, 50% 90%, 
+        45% 85%, 40% 90%, 35% 85%, 30% 90%, 25% 85%, 20% 90%, 15% 85%, 10% 90%, 
+        5% 85%, 0% 90%
+    );
+
+}
+.redes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0 130px 0;
+}
+.redes img {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
